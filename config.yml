@@ -1,0 +1,14 @@
+# YAML file
+# constrints: all the variables in function shold have "," after the value eg:- (var=val,)
+#In cnn: model.fit must be stored in a variable and the variable name must be written here in ModelFitVariable 
+
+
+RepoURL: https://github.com/gautamnankani/KNN_project.git
+RepoName: KNN_project
+
+Name: Second_model
+Counter: 5
+AccuracyVariable: accuracy
+HyperParameter:
+  HYP1:
+     n_neighbors: [1,2,3,4,5]
